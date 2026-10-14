@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.baba.Agile1.Agile1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.896 s <<< FAILURE! -- in com.baba.Agile1.Agile1ApplicationTests
+com.baba.Agile1.Agile1ApplicationTests.testNegative -- Time elapsed: 0.010 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Not a palindrome> but was: <Palindrome>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:201)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1188)
+	at com.baba.Agile1.Agile1ApplicationTests.testNegative(Agile1ApplicationTests.java:27)
+
