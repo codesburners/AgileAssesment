@@ -24,7 +24,7 @@ class Agile1ApplicationTests {
 	void testNegative()
 	{
 		Agile1Application application=new Agile1Application();
-		assertEquals("Not a Palindrome",application.testNum(123));
+		assertEquals("Not a Palindrome",application.testNum(111));
 
 	}
 
